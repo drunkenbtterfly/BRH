@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fredoka: ['Fredoka', 'sans-serif'],
+      },
+      fontVariationSettings: {
+        auto: 'font-optical-sizing: auto', // Menambahkan setting optical sizing
+      },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(0)' },
@@ -13,6 +19,9 @@ module.exports = {
       },
       animation: {
         marquee: 'marquee 300s linear infinite',
+      },
+      boxShadow: {
+        'inset': 'inset 0px 15px 10px rgba(0, 0, 0, 0.2)',
       },
     },
   },
