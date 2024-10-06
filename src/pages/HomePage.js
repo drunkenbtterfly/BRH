@@ -7,19 +7,8 @@ const HomePage = () => {
   return (
     <Layout>
       <div className="bg-black">
-        <section className='flex flex-col lg:flex-row'>
-          <div className='lg:w-1/3 px-10'>
-            <img src="/brh.jpeg" alt="Logo" className='rounded-xl' />
-          </div>
-
-          <div className='lg:w-2/3 mx-10'>
-            <h1 className='text-white font-fredoka text-4xl'>Benih kecil yang tumbuh menjadi pohon besar. Perjalanan
-              kami dimulai dari klan StarCraft pada tahun 2000 dan kini
-              berkembang menjadi tim yang telah memenangkan banyak
-              kejuaraan. Namun, visi kami tidak berubah: selalu menjadi
-              wadah komunitas bagi orang-orang yang mencintai Esports.
-            </h1>
-          </div>
+        <section className='flex justify-center items-center'>
+            <img src="logoml.png" alt="Deskripsi Gambar" className='rounded-3xl' />
         </section>
 
         <section className="py-8">
